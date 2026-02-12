@@ -1,0 +1,545 @@
+[
+  {
+    "id": 3,
+    "provider": "Quill",
+    "title": "Building AI Knowledge",
+    "url": "https://www.quill.org/interdisciplinary-science/building-ai-knowledge",
+    "grades": [
+      "Middle School (MS)",
+      "High School (HS)"
+    ],
+    "quantity": "12 (with 9 more coming soon)",
+    "duration": "20-30 min",
+    "description": "Quill's Building AI Knowledge activities aim to provide teachers and students with an understanding of how AI works and to explain what skills and knowledge are needed to thrive in an AI-driven world.  Students read a mix of stories that explore both the potential promises and pitfalls of AI. One of the main goals of this offering is to show students that AI is not just something that exists in the world; it is something that humans create.",
+    "ourTake": "Use this resource as a supplement to an ELA, history, or science course. Students engage with short articles that are designed to engage them in learning about AI by exploring how it might impact their lives and the world around them. Article topics range from LLMs helping humans talk to whales to whether or not AI artists are stealing from visual artists. These texts would be excellent to use in a \"close reading\" or \"shared text\" structure.",
+    "objectives": "- SWBAT learn about AI and its impact on animal conservation \n- SWBAT learn about AI and its impact on arts and entertainment\n- SWBAT learn about AI and daily life\n- SWBAT read and highlight an AI related text, write sentences about what they learned, and revise those sentences based on AI feedback",
+    "accessNotes": "Materials are free and accessible without any login.",
+    "resources": [
+      "Handouts"
+    ],
+    "handsOn": true
+  },
+  {
+    "id": 4,
+    "provider": "Google / Stanford",
+    "title": "AI Quests",
+    "url": "https://research.google/ai-quests/intl/en_gb",
+    "grades": [
+      "Middle School (MS)"
+    ],
+    "quantity": "1 (with more coming soon)",
+    "duration": "50 min(with supplemental activities up to 45+ min)",
+    "description": "AI Quests invite students ages 11 to 14 to step into the shoes of Google researchers, applying AI across climate, health and science. Within the Quests, students explore the fundamentals of AI and its applications through a series of immersive adventures. They have the opportunity to explore, make mistakes, reflect on their thinking and make changes, with guidance from their in-game mentor, Professor Skye.",
+    "ourTake": "Use this resource if you are looking for a fun and engaging way to connect the fundamentals of AI (e.g., what is it and how does it work) and the potential societal impacts of AI (e.g., how can AI help predict floods and prepare communities earlier for a safer outcome).",
+    "objectives": "-SWBAT describe a real-world example of how humans use AI predictions to make decisions and solve problems in society.\r\n-SWBAT explain the role of data in training an AI model and how human choices in data selection change what the model learns.\r\n- SWBAT identify key stages in the AI lifecycle (i.e., data preparation, model training and testing, and deployment) and their relevance in building a flood prediction model.\r\n- SWBAT identify important data types used in flood forecasting, such as rainfall and terrain data.",
+    "accessNotes": "Materials are free and accessible without any login.",
+    "resources": [
+      "Lesson Plans",
+      "Videos",
+      "Slides",
+      "Handouts"
+    ],
+    "handsOn": true
+  },
+  {
+    "id": 5,
+    "provider": "Playlab",
+    "title": "AI for Action Unit",
+    "url": "https://docs.google.com/document/d/1JgA3aoJYqadCO09LXP1uxwsY2xnJSP934du_qiTI3j8/edit?tab=t.0#heading=h.coyqflatd247",
+    "grades": [
+      "Middle School (MS)",
+      "High School (HS)"
+    ],
+    "quantity": "12",
+    "duration": "60 min",
+    "description": "This \"AI for Action\" project based unit allows students to explore AI and how it impacts folks at the personal, family, and community level. Trough a series of 12 lessons organized around 2 \"Big Questions\", students have the opportunity to study the pervasiveness of AI in our daily lives as well as the ethical impact AI can have, build, test, and refine their own AI apps in Playlab, and become increasingly empowered to drive action.",
+    "ourTake": "Use this resource if you are interested in teaching a comprehensive unit (12, hour-long lessons that build on one another) that focus on building AI apps through playlab. Students will have the opportunity to build foundational knowledge; create, refine, and implement AI solutions through building their own apps; and practice \"pitching\" their AI apps to a broader audience. Lessons are scripted and follow the 5E model and include assesmsent with a rubric for grading purposes.",
+    "objectives": "- SWBAT identify and explain examples of AI in every day life\n- SWBAT analyze the functions of an AI app to list the possible steps in an app's workflow\n- SWBAT share elevator pitches to a wide audience, reacting in the moment to their honest responses",
+    "accessNotes": "Materials are free and accessible without any login.",
+    "resources": [
+      "Lesson Plans",
+      "Videos",
+      "Slides",
+      "Handouts"
+    ],
+    "handsOn": true
+  },
+  {
+    "id": 6,
+    "provider": "Experience AI",
+    "title": "AI Safety",
+    "url": "https://experience-ai.org/en/units/ai-safety",
+    "grades": [
+      "Middle School (MS)"
+    ],
+    "quantity": "2 units (6 lessons in one, 3 lessons in the other)",
+    "duration": "30-45",
+    "description": "This site equips learners with the knowledge and skills to responsibly and safely navigate the challenges associated with AI, from data privacy, misinformation, and fact-checking, to deepfakes and generative AI.",
+    "ourTake": "Use this resource if you are interested in teaching a series of lessons organized into a unit on a single topic like \"Foundations of AI\" or \"AI Safety\". The resources are designed to be delivered by non-specialist educators and are suitable for classrooms, assemblies, clubs, and homes. Lessons are focused around a topic and include a video, a set of discussion questions, and \"unplugged\" activities.",
+    "objectives": "-SWBAT name examples of AI applications\n-SWBAT outline some benefits and issues of using AI applications\n-SWBAT compose a list of your responsibilities when using AI tools\n-SWBAT build a set of expectations of fairness, accountability, and transparency around AI tools available to teens",
+    "accessNotes": "You’ll need to login to access the lesson slides and handouts. Materials are available for free.",
+    "resources": [
+      "Lesson Plans",
+      "Videos",
+      "Slides",
+      "Handouts"
+    ],
+    "handsOn": false
+  },
+  {
+    "id": 7,
+    "provider": "Michigan Virtual",
+    "title": "AI Literacy Resources",
+    "url": "https://michiganvirtual.org/ai/literacy/",
+    "grades": [
+      "Middle School (MS)"
+    ],
+    "quantity": "8 units (3 lessons per unit)",
+    "duration": "20-45",
+    "description": "This site is primarily a series of student-facing videos designed to help students build a foundation in artificial intelligence—from understanding AI basics to preparing for an AI-driven future. The videos are 1-3 minutes in length and cover a range of topics. There are also short lessons built around each video in the series, materials for a 20-30 minute lesson to supplement a video.",
+    "ourTake": "Use this resource if you don't have time in your day to teach full AI focused lessons but still want to introduce/engage with AI with your students. The videos are quite short and directed at students and could serve as a Do Now or Close Out for advisory, morning meeting, or other such time in the day. There are 24 videos covering 8 topics.",
+    "objectives": "-SWBAT write strong prompts for AI chatbots\n-SWBAT refine chatbot results\n-SWBAT identify algorithmic bias",
+    "accessNotes": "You'll need to both login and then register for each course to access lesson materials. All are available for free but require two steps to access. The video series is available without signing up.",
+    "resources": [
+      "Lesson Plans",
+      "Videos",
+      "Slides",
+      "Handouts"
+    ],
+    "handsOn": true
+  },
+  {
+    "id": 8,
+    "provider": "Library Ready AI",
+    "title": "AI Scope and Sequence",
+    "url": "https://libraryready.ai/",
+    "grades": [
+      "Elementary (ES)",
+      "Middle School (MS)",
+      "High School (HS)"
+    ],
+    "quantity": "n/a",
+    "duration": "n/a",
+    "description": "This scope and sequence document presents grade band concepts for teaching about artificial intelligence across PreK-12. Although not a comprehensive curriculum, this document can be used as a framework to curate or create curriculum resources for teaching lessons about AI.",
+    "ourTake": "Use this resource if you are interested in identifying a comprehensive, K-12 approach to teaching AI literacy to students. This framework will help educators answer the question - \"What do students need to know and be able to do wih AI as they progress from K-12?\"",
+    "objectives": "n/a",
+    "accessNotes": "Scope and sequence is free and accessible withouy any login.",
+    "resources": [],
+    "handsOn": false
+  },
+  {
+    "id": 9,
+    "provider": "aiEDU",
+    "title": "Elementary AI Explorations",
+    "url": "https://www.aiedu.org/ai-explorations",
+    "grades": [
+      "Elementary (ES)"
+    ],
+    "quantity": "15",
+    "duration": "15-20",
+    "description": "This site includes classroom activities — built for elementary school students — designed to spark debate and ignite curiosity about AI and AI concepts.",
+    "ourTake": "Use this resource if you are a 3-5 teacher who is looking to build foundational knowledge and AI readiness in students. These activities are quick and especially good at sparking debate and igniting curiosity.",
+    "objectives": "-SWBAT identify how a computer learns to sort\n-SWBAT identify mutliple uses for the same object",
+    "accessNotes": "You’ll need to login to access the lesson slides and handouts. Materials are available for free.",
+    "resources": [
+      "Lesson Plans",
+      "Videos",
+      "Handouts"
+    ],
+    "handsOn": false
+  },
+  {
+    "id": 10,
+    "provider": "Common Sense Education",
+    "title": "AI Literacy Lessons",
+    "url": "https://www.commonsense.org/education/collections/ai-literacy-lessons-for-grades-6-12",
+    "grades": [
+      "Middle School (MS)",
+      "High School (HS)"
+    ],
+    "quantity": "9",
+    "duration": "15- 20",
+    "description": "This site includes quick, grab and go lessons that are intended to support students in thinking critically about AI and its impact. Lesson collection includes - AI Chatbots and Friendship, Facial Recognition, How is AI Trained, How AI Bias Impacts our Lives, Understanding AI Bias, What is AI, AI Chatbots - Who is Behind the Screen?, AI algorithms - How well do they know you?, AI - Is it Plagiarism?",
+    "ourTake": "Use this resource if you want to give a brief introduction to students about AI but aren’t necessarily ready to embed AI learning in your already existing lesson plans or already existing scopes and sequences. These 8 intro lessons could be good to use during Advisory or plugged into an argumentative writing course.",
+    "objectives": "-SWBAT understand what AI is and how it works.\n-SWBAT consider risks and benefits of AI.\n-SWBAT think critically about how to become responsible and ethical users of AI.",
+    "accessNotes": "You’ll need to login to access the lesson slides and handouts. Materials are available for free.",
+    "resources": [
+      "Lesson Plans",
+      "Videos",
+      "Slides",
+      "Handouts"
+    ],
+    "handsOn": false
+  },
+  {
+    "id": 11,
+    "provider": "metaLAB at Harvard",
+    "title": "AI Pedagogy Project",
+    "url": "https://aipedagogy.org/assignments/",
+    "grades": [
+      "Middle School (MS)",
+      "High School (HS)"
+    ],
+    "quantity": "18",
+    "duration": "45",
+    "description": "This site offers two key things - 1) thoughtfully designed lesson plans focused on ethical questions related to AI and its use and 2) an \"Educator's Guide\" that provides guidance about how to integrate AI in the classroom. The Guide includes an AI starter, an LLM tutorial, LLM comparisons between ChatGPT and Claude, and resources (including a glossary).",
+    "ourTake": "Use this resource if you are a history, writing, ELA, journalism, creative writing teacher etc. Each of these lessons is easily embeddable into a course that invites students to think and write critically. This site could be shared immediately with all 6-12 Humanities teachers to show them how they can integrate AI related content, today and learn with their students. OR if you are an educator looking to teach yourself more about AI.",
+    "objectives": "-SWBAT create strategic approaches towards the adoption and use of Generative AI in educational settings\n-SWBAT identify the limits of common tools to critically assess their potential for misuse\n-SWBAT work with an AI image mixer tool to explore the possibilities and limits of creative collaboration.",
+    "accessNotes": "Materials are free and accessible without any login.",
+    "resources": [
+      "Lesson Plans"
+    ],
+    "handsOn": true
+  },
+  {
+    "id": 12,
+    "provider": "Stanford",
+    "title": "Craft AI Literacy Resource",
+    "url": "https://craft.stanford.edu/dash/resources",
+    "grades": [
+      "Middle School (MS)",
+      "High School (HS)"
+    ],
+    "quantity": "30",
+    "duration": "Varies (between 20-75)",
+    "description": "This site provides Classroom-ready Resources about AI for Teaching (CRAFT) to help students explore, understand, question and critique AI. CRAFT intentionally uses a multidisciplinary approach so teachers of diverse backgrounds and subject areas can teach about AI. The resources on this site are continuously being added/updated (there are many pages that are not yet populated with content).",
+    "ourTake": "Use this resource if you are a math teacher or a science teacher (someone other than a literacy or writing teacher) who wants to delve into AI topics with students. Use the “explorables” to identify different key questions for your content as relates to AI. Use me to identify key “artifacts” that could be used to center an AI lesson (e.g., articles, videos).",
+    "objectives": "-SWBAT identify examples of artificial intelligence in their day-to-day life.\n-SWBAT articulate how they know a particular technology is using artificial intelligence.\n-SWBAT answer the questions - what data could my chosen algorithm be using? How does the algorithm’s output affect different people?",
+    "accessNotes": "Materials are free and accessible without any login. The site is in progress; some resources on the site are currently being developed and more will be added soon.",
+    "resources": [
+      "Lesson Plans",
+      "Videos",
+      "Slides",
+      "Handouts"
+    ],
+    "handsOn": true
+  },
+  {
+    "id": 13,
+    "provider": "Code.org",
+    "title": "AI Resources",
+    "url": "https://code.org/ai#ai-curricula",
+    "grades": [
+      "Elementary (ES)",
+      "Middle School (MS)",
+      "High School (HS)"
+    ],
+    "quantity": "6 modules (# of lessons per module varies)",
+    "duration": "Varies (between 45-60)",
+    "description": "This site aims to demystify AI by providing informative lessons and videos that explain how AI works and how it changes the ways we live, work, and learn. A primary goal is to show students that AI is not magic - it's code.",
+    "ourTake": "Use this resource if you as a teacher are interested in learning more about AI, how it works, and ways to teach AI to your students. The site includes a 101 video series for teachers and a self-paced module for teachers to use to learn how to teach AI and machine learning. Also - use this site if you have self-motivated students who can work through modules at their own pace, independently.",
+    "objectives": "-SWBAT explore the impact of generative AI.\n-SWBAT conduct research that exposes ethical pitfalls in an AI area of their choice.\n-SWBAT dive into how generative AI works, including large language models (LLMs) and image generation.",
+    "accessNotes": "You'll need to register for code.org before you can access lessons and modules, which are available for free.",
+    "resources": [
+      "Lesson Plans",
+      "Videos",
+      "Slides",
+      "Handouts"
+    ],
+    "handsOn": true
+  },
+  {
+    "id": 14,
+    "provider": "ISTE",
+    "title": "Hands-On AI Projects for the Classroom: Elementary",
+    "url": "https://1818747.fs1.hubspotusercontent-na1.net/hubfs/1818747/ISTE_GM_AI/ISTEGM_AIGuides_Elementary_EN.pdf",
+    "grades": [
+      "Elementary (ES)"
+    ],
+    "quantity": "20",
+    "duration": "60",
+    "description": "This site offers a set of guides for teachers who are seeking instructional and curricular resources about artificial intelligence (AI) for students in K-5, across a range of subject areas.",
+    "ourTake": "Use this resource if you are an elementary school teacher who wants to teach students about AI through exploration and hands-on use. This resource outlines 4 projects that take multiple days to work through with students.",
+    "objectives": "- Project 1 - What AI Does Well and Does not do as Well\n- Project 2 - Training Data and Machine Learning\n- Project 3 - Senses vs. Sensors\n- Project 4 - Navigation and AI",
+    "accessNotes": "Materials are free and accessible without any login.",
+    "resources": [
+      "Lesson Plans"
+    ],
+    "handsOn": true
+  },
+  {
+    "id": 15,
+    "provider": "ISTE",
+    "title": "Hands-On AI Projects for the Classroom: Secondary",
+    "url": "https://1818747.fs1.hubspotusercontent-na1.net/hubfs/1818747/ISTE_GM_AI/ISTEGM_AIGuides_Secondary_EN.pdf",
+    "grades": [
+      "Middle School (MS)",
+      "High School (HS)"
+    ],
+    "quantity": "20",
+    "duration": "60",
+    "description": "This site offers a set of guides for teachers who are seeking instructional and curricular resources about artificial intelligence (AI) for students in grades 6-12, across a range of subject areas.",
+    "ourTake": "Use this resource if you are a middle or high school teacher (any subject) who wants to teach students about AI through exploration and hands-on use, in the form of multi-day projects. This resource outlines 4 projects that take multiple days to work through with students.",
+    "objectives": "- Project 1 - AI Chatbots\n- Project 2 - Developing a Critical Eye\n- Project 3 - Using AI to Solve Environmental Problems\n- Project 4 - Laws for AI",
+    "accessNotes": "Materials are free and accessible without any login.",
+    "resources": [
+      "Lesson Plans"
+    ],
+    "handsOn": true
+  },
+  {
+    "id": 16,
+    "provider": "ISTE",
+    "title": "Hands-On AI Projects for the Classroom: Electives",
+    "url": "https://1818747.fs1.hubspotusercontent-na1.net/hubfs/1818747/ISTE_GM_AI/ISTEGM_AIGuides_Electives_EN.pdf",
+    "grades": [
+      "Elementary (ES)",
+      "Middle School (MS)",
+      "High School (HS)"
+    ],
+    "quantity": "20",
+    "duration": "60",
+    "description": "This site offers a set of guides for electives teachers who are seeking instructional and curricular resources about artificial intelligence (AI) for students in grades 4-12, across a range of subject areas, with a focus on electives (e.g., art and world languages).",
+    "ourTake": "Use this resource if you are an electives teacher (art, languages) who wants to teach students about AI through exploration and hands-on use, in the form of multi-day projects. This resource outlines 4 projects that take multiple days to work through with students.",
+    "objectives": "- Project 1 - Create an AI Expert Guessing Game\n- Project 2 - Design an AI Agent\n- Project 3 - AI and Art\n- Project 4 - AI Powered vs. Human Translators",
+    "accessNotes": "Materials are free and accessible without any login.",
+    "resources": [
+      "Lesson Plans"
+    ],
+    "handsOn": true
+  },
+  {
+    "id": 17,
+    "provider": "ISTE",
+    "title": "Hands-On AI Projects for the Classroom: CS Teachers",
+    "url": "https://1818747.fs1.hubspotusercontent-na1.net/hubfs/1818747/ISTE_GM_AI/ISTEGM_AIGuides_ComputerScience_EN.pdf",
+    "grades": [
+      "Middle School (MS)",
+      "High School (HS)"
+    ],
+    "quantity": "40",
+    "duration": "60",
+    "description": "This site offers a set of guides for teachers who are seeking instructional and curricular resources about artificial intelligence (AI) for students in grades 6-12, with a specific focus on computer science, coding, and gaming.",
+    "ourTake": "Use this resource if you are a computer science teacher with a background in coding and gaming and already extensive knowledge of machine learning and want in depth projects (8-12 hours each) to explore these concepts with students. This resource outlines 4 projects that take multiple days to work through with students.",
+    "objectives": "- Project 1 - Programming with Machine Learning\n- Project 2- AI Powered Players in Video Games\n- Project 3 - Using AI for Robotic Motion Planning\n- Project 4 - Machine Learning as a Service",
+    "accessNotes": "Materials are free and accessible without any login.",
+    "resources": [
+      "Lesson Plans"
+    ],
+    "handsOn": true
+  },
+  {
+    "id": 18,
+    "provider": "ISTE",
+    "title": "Hands-On AI Projects for the Classroom: Ethics",
+    "url": "https://1818747.fs1.hubspotusercontent-na1.net/hubfs/1818747/ISTE_GM_AI/ISTEGM_AIGuides_Ethics_EN.pdf",
+    "grades": [
+      "Elementary (ES)",
+      "Middle School (MS)",
+      "High School (HS)"
+    ],
+    "quantity": "30",
+    "duration": "60",
+    "description": "This site offers a set of guides for teachers who are seeking instructional and curricular resources about artificial intelligence (AI) for students in grades K-12 (project audiences vary within), with a specific focus on fairness, bias, and ethics.",
+    "ourTake": "Use this resource if you are a teacher who wants to teach students about AI through exploration and hands-on use, in the form of multi-day projects that focus on fairness and ethics. This resource outlines 4 projects that take multiple days to work through with students.",
+    "objectives": "- Project 1 - Fair's Fair\n- Project 2 - Who is in Control?\n- Project 3 - The Trade-offs of AI Technology\n- Project 4 - AI and the 21st Century Worker",
+    "accessNotes": "Materials are free and accessible without any login.",
+    "resources": [
+      "Lesson Plans"
+    ],
+    "handsOn": true
+  },
+  {
+    "id": 19,
+    "provider": "aiEDU",
+    "title": "Full Project-Based AI Learning Course",
+    "url": "https://www.aiedu.org/intro-to-ai",
+    "grades": [
+      "High School (HS)"
+    ],
+    "quantity": "35",
+    "duration": "45",
+    "description": "This site offers a 10-week project-based learning course that introduces the fundamentals of AI through engaging, culturally relevant lessons.",
+    "ourTake": "Use this resource if you want to teach students about AI in our current world and ways we are interactingw ith AI, daily, and might not know it.",
+    "objectives": "- SWBAT define common sense and the role it plays in decision-making for both\nhumans and AI.\n- SWBAT Use background information to develop independent opinions and effectively argue those opinions in front of an audience.",
+    "accessNotes": "You'll have to download the materials and provide information about yourself (e.g., name, email, organization, location, intended use of materials) to access these materials.",
+    "resources": [
+      "Lesson Plans",
+      "Handouts"
+    ],
+    "handsOn": true
+  },
+  {
+    "id": 20,
+    "provider": "aiEDU",
+    "title": "AI Snapshots for classroom warm-ups",
+    "url": "https://docs.google.com/presentation/d/1i3GaqNUIIHoSLTptHu-0TQ4vZGFyEbN2-RWxaGZps-c/edit#slide=id.g1211f9ce7a2_0_282",
+    "grades": [
+      "Middle School (MS)",
+      "High School (HS)"
+    ],
+    "quantity": "180",
+    "duration": "5",
+    "description": "This site offers an assortment of classroom warmups (provided in one large slide deck) that will give your students a basic understanding of AI. In only 5 minutes of class time, students will learn to define, identify, and think critically about artificial intelligence.",
+    "ourTake": "Use this resource if you are interested in providing quick, 5-10 minute activities with students to get them exposed to AI and thinking about AI - what it offers and its limiatations - in a pop science kind of way. This resource is useful for warm-ups/do-nows in content classes (English, math, science and SS) or for advisory/homeroom.",
+    "objectives": "n/a",
+    "accessNotes": "Materials are free and accessible without any login.",
+    "resources": [
+      "Slides"
+    ],
+    "handsOn": true
+  },
+  {
+    "id": 21,
+    "provider": "aiEDU",
+    "title": "Individual Projects",
+    "url": "https://www.aiedu.org/flex-plans",
+    "grades": [
+      "High School (HS)"
+    ],
+    "quantity": "6",
+    "duration": "Varies (between 60-300)",
+    "description": "This site offers print-and-go projects designed for busy educators in need of engaging and effective substitute plans.",
+    "ourTake": "Use this resource if you are a substitute teacher who is filling in for another teacher and needs comprehensive plans for coverage.",
+    "objectives": "- SWBAT team up to create an interview with ChatGPT.\n-SWBAT explore the benefits and challenges of autonomous vehicles and propose policies for how to use and regulate them.\n- SWBAT develop a vision board for the future of medicine, grounding their ideas in current technologies.",
+    "accessNotes": "You'll have to download the materials and provide information about yourself (e.g., name, email, organization, location, intended use of materials) to access these materials.",
+    "resources": [
+      "Lesson Plans",
+      "Handouts"
+    ],
+    "handsOn": true
+  },
+  {
+    "id": 22,
+    "provider": "MIT Media Lab",
+    "title": "MIT AI Ethics Education Curriculum",
+    "url": "https://docs.google.com/document/d/1e9wx9oBg7CR0s5O7YnYHVmX7H7pnITfoDxNdrSGkp60/edit#heading=h.1et5vs39qkyh",
+    "grades": [
+      "Middle School (MS)"
+    ],
+    "quantity": "8-10",
+    "duration": "Varies (between 20 - 180)",
+    "description": "This document includes a set of activities, teacher guides, assessments, materials, and more to assist educators in teaching about the ethics of artificial intelligence.",
+    "ourTake": "Use this resource if you want to do a cursory dive into AI and its limitations and opportunities - the materials included are more activity-based than lesson based and could be incorporated into lessons in other content areas, if desired. The materials here are mostly (not all) \"unplugged\" and generally require only paper/pencil/marker/and some student printouts provided on the site.",
+    "objectives": "- SWBAT understand the basic mechanics of artificial intelligence systems.\n- SWBAT understand that socio-technical systems are not neutral sources of information and serve political agendas.\r\n- SWBAT recognize there are many stakeholders in a given socio-technical system and that the system can affect these stakeholders differentially.",
+    "accessNotes": "Materials are free and accessible without any login.",
+    "resources": [
+      "Lesson Plans",
+      "Slides",
+      "Handouts"
+    ],
+    "handsOn": true
+  },
+  {
+    "id": 23,
+    "provider": "aiEDU",
+    "title": "AI Challenges",
+    "url": "https://www.aiedu.org/ai-challenges",
+    "grades": [
+      "Middle School (MS)",
+      "High School (HS)"
+    ],
+    "quantity": "6 challenges",
+    "duration": "30-45",
+    "description": "This site provides \"AI Challenges\" that are intended to get the user interacting with AI and to build interest in the technology. The tag line is \"AI is working for you\".",
+    "ourTake": "Use this resource if you are a systems level leader who wants to get buy-in/create comfort with different, fun and engaging ways to use AI. Or, use this resource as a homework assignment or to spark ideas for a research project or argumentative paper.",
+    "objectives": "The challenges include - \n- Can you prove you are smarter than ChatGPT?\n- Can you design ten ways to fool your phone's face recognition?\n- Can you figure out how instagram ranks your posts?",
+    "accessNotes": "Materials are free and accessible without any login.",
+    "resources": [],
+    "handsOn": true
+  },
+  {
+    "id": 24,
+    "provider": "MIT",
+    "title": "RAISE  Playground: Interactive AI made easy, creative, and fun",
+    "url": "https://playground.raise.mit.edu/",
+    "grades": [
+      "Middle School (MS)",
+      "High School (HS)"
+    ],
+    "quantity": "5 days",
+    "duration": "Varies (between 20 and 600)",
+    "description": "This site is a block-based programming platform that was developed to support hands-on learning about AI and robotics for students and beginning programmers.",
+    "ourTake": "Use this resoruce if you are a computer science teacher and are interested in engaging in a multi-day project with students who have an interest in programming.",
+    "objectives": "-SWBAT use a functional definition of Artificial Intelligence (AI) to accurately be able to distinguish between technologies that use AI and technologies that do not use AI.\n-SWBAT reason about ethical dilemmas, especially the ethical implications of AI.\r\n- SWBAT explain how AI algorithms function using data sets.\r\n-SWBAT apply AI to solve a problem that is relevant to their lives.",
+    "accessNotes": "You'll have to dig around on this site to find materials - go to curriculum resources and educator guide.",
+    "resources": [
+      "Lesson Plans",
+      "Slides",
+      "Handouts"
+    ],
+    "handsOn": true
+  },
+  {
+    "id": 25,
+    "provider": "MIT",
+    "title": "Dancing with AI",
+    "url": "https://raise.mit.edu/resources/dancing-with-ai/",
+    "grades": [
+      "Middle School (MS)"
+    ],
+    "quantity": "5 days",
+    "duration": "Varies (between 120-180)",
+    "description": "This site offers the opportunity for middle school students to build interactive AI projects using a series of new Scratch extensions allowing for natural interaction.",
+    "ourTake": "Use this resource if you are looking for a week-long intensive course; ideally for a spring break academy, an elective, or an end of year project.",
+    "objectives": "- SWBAT learn about AI and LLMs while moving.\n- SWBAT create and use a Teachable Machines classifier. \n- SWBAT reflect on the ethics of different types of representation, learn about bias, and think about data privacy.",
+    "accessNotes": "Materials are free and accessible without any login.",
+    "resources": [
+      "Lesson Plans",
+      "Slides",
+      "Handouts"
+    ],
+    "handsOn": true
+  },
+  {
+    "id": 26,
+    "provider": "AI for Education",
+    "title": "Intro to AI for Students",
+    "url": "https://www.aiforeducation.io/curriculum-main",
+    "grades": [
+      "Middle School (MS)",
+      "High School (HS)"
+    ],
+    "quantity": "4 lessons",
+    "duration": "90",
+    "description": "This is a 4 lesson sequence that explores how large language models are trained and generate answers.",
+    "ourTake": "Use this resource if you are interested in co-creating an AI School Policy.",
+    "objectives": "- SWBAT identify and share examples of AI and chatbots they use in their every day life.\n- SWBAT create thought-provoking questions about the power and potential of AI. \n- SWBAT conduct and record a chatbot interview using prepared questions.",
+    "accessNotes": "Materials are free and accessible without any login.",
+    "resources": [
+      "Lesson Plans",
+      "Handouts"
+    ],
+    "handsOn": true
+  },
+  {
+    "id": 27,
+    "provider": "Adobe & Content Authenticity Initiative",
+    "title": "Media Literacy Curriculum",
+    "url": "https://edex.adobe.com/cai",
+    "grades": [
+      "Middle School (MS)",
+      "High School (HS)"
+    ],
+    "quantity": "4 units with 4 lesssons each for MS and the same for HS",
+    "duration": "50",
+    "description": "These standards-aligned lessons introduce students to generative AI and engage them in critical conversations surrounding the technology.",
+    "ourTake": "Use this resource if you are interested in introducing students to AI through a basic intro, discussion of the ethics around AI, and then hands-on use of AI tools. These lessons are101 and intended to introduce AI to students for the first time.",
+    "objectives": "SWBAT define terms used throughout the curriculum to clarify what is included when we use the term “generative AI.”\n- SWBAT consider criteria for detecting the use of generative AI and reflect on the effectiveness of those criteria.\n- SWBAT examine some of the ethical, legal, and practical concerns around generative AI, as well as potential benefits offered by this technology.",
+    "accessNotes": "Materials are free and accessible without any login.",
+    "resources": [
+      "Lesson Plans",
+      "Handouts"
+    ],
+    "handsOn": true
+  },
+  {
+    "id": 28,
+    "provider": "Solvably",
+    "title": "K-12 AI Curricula",
+    "url": "https://www.solvably.com/marketplace/k12/ai",
+    "grades": [
+      "Elementary (ES)",
+      "Middle School (MS)",
+      "High School (HS)"
+    ],
+    "quantity": "12 modules; 17 topics",
+    "duration": "Varies (between 180 - 240)",
+    "description": "",
+    "ourTake": "",
+    "objectives": "-SWBAT become engineers and embark on a quest to tackle pressing AI issues\n-SWBAT use historical data, algebraic functions, and AI to forecast stock movements.\n-SWBAT design a dream job.",
+    "accessNotes": "You'll have to login to access these materials.",
+    "resources": [],
+    "handsOn": false
+  }
+]
