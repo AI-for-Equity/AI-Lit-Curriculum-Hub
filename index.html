@@ -784,6 +784,24 @@
             background: var(--brand-blue);
         }
 
+        .tab-divider {
+            display: flex;
+            align-items: center;
+            font-size: 12px;
+            color: var(--gray-500);
+            font-weight: 500;
+            padding: 0 12px;
+            margin-left: 8px;
+            border-left: 1px solid var(--gray-300);
+        }
+
+        .pathway-intro {
+            font-size: 17px;
+            line-height: 1.7;
+            color: var(--gray-700);
+            margin-bottom: 28px;
+        }
+
         .tab-panel {
             display: none;
         }
@@ -798,9 +816,115 @@
             to { opacity: 1; }
         }
 
+        /* Vision Styles */
+        .vision-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding-bottom: 80px;
+        }
+
+        .vision-title {
+            font-family: 'Fraunces', serif;
+            font-size: clamp(1.75rem, 4vw, 2.5rem);
+            font-weight: 500;
+            color: var(--ink);
+            line-height: 1.2;
+            margin-bottom: 32px;
+        }
+
+        .vision-lead {
+            font-size: 1.15rem;
+            font-weight: 500;
+            color: var(--ink);
+            line-height: 1.8;
+            margin-bottom: 28px;
+        }
+
+        .vision-text {
+            font-size: 1.05rem;
+            color: var(--ink-light);
+            line-height: 1.8;
+            margin-bottom: 24px;
+        }
+
+        .vision-goals-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+            margin: 40px 0;
+        }
+
+        @media (max-width: 768px) {
+            .vision-goals-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .vision-goal-card {
+            background: white;
+            border-radius: var(--radius-lg);
+            padding: 28px;
+            box-shadow: var(--shadow-soft);
+            border: 1px solid rgba(26, 26, 46, 0.04);
+            transition: all 0.3s ease;
+        }
+
+        .vision-goal-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-medium);
+            border-color: var(--brand-blue);
+        }
+
+        .vision-goal-icon {
+            width: 48px;
+            height: 48px;
+            background: var(--brand-blue-light);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 16px;
+            color: var(--brand-blue);
+        }
+
+        .vision-goal-card h3 {
+            font-family: 'Fraunces', serif;
+            font-size: 1.25rem;
+            font-weight: 500;
+            color: var(--ink);
+            margin-bottom: 12px;
+        }
+
+        .vision-goal-card p {
+            font-size: 0.95rem;
+            color: var(--ink-light);
+            line-height: 1.7;
+            margin: 0;
+        }
+
+        .vision-closing {
+            background: linear-gradient(135deg, var(--brand-blue-light) 0%, #E8F6FC 100%);
+            border-radius: var(--radius-lg);
+            padding: 32px;
+            margin-top: 40px;
+            border-left: 4px solid var(--brand-blue);
+        }
+
+        .vision-closing p {
+            font-size: 1.1rem;
+            color: var(--ink);
+            line-height: 1.8;
+            margin: 0;
+        }
+
+        .vision-closing strong {
+            color: var(--brand-blue-dark);
+        }
+
         /* Implementation Guidance Styles */
         .guidance-container {
-            max-width: 900px;
+            max-width: 1000px;
+            margin: 0 auto;
             padding-bottom: 80px;
         }
 
@@ -946,6 +1070,199 @@
             margin-bottom: 0;
         }
 
+        /* Comparison Tables */
+        .comparison-table-wrapper {
+            overflow-x: auto;
+            margin: 24px 0;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-soft);
+        }
+
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            font-size: 14px;
+        }
+
+        .comparison-table th {
+            background: var(--ink);
+            color: white;
+            padding: 16px 20px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 13px;
+            white-space: nowrap;
+        }
+
+        .comparison-table th:first-child {
+            border-radius: var(--radius) 0 0 0;
+        }
+
+        .comparison-table th:last-child {
+            border-radius: 0 var(--radius) 0 0;
+        }
+
+        .comparison-table td {
+            padding: 16px 20px;
+            border-bottom: 1px solid rgba(26, 26, 46, 0.08);
+            vertical-align: top;
+            line-height: 1.5;
+        }
+
+        .comparison-table tbody tr:last-child td {
+            border-bottom: none;
+        }
+
+        .comparison-table tbody tr:hover {
+            background: var(--cream);
+        }
+
+        .comparison-table .row-label {
+            font-weight: 600;
+            color: var(--ink);
+            background: var(--cream);
+            white-space: nowrap;
+        }
+
+        .comparison-table.two-col th:nth-child(2),
+        .comparison-table.two-col th:nth-child(3) {
+            width: 45%;
+        }
+
+        .comparison-table.two-col-wide td:first-child {
+            width: 35%;
+        }
+
+        .lift-tag {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 100px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .lift-tag.low {
+            background: #E8F5E9;
+            color: #2E7D32;
+        }
+
+        .lift-tag.medium {
+            background: #FFF3E0;
+            color: #E65100;
+        }
+
+        .lift-tag.high {
+            background: #FFEBEE;
+            color: #C62828;
+        }
+
+        /* Decision Tree */
+        .decision-tree {
+            background: white;
+            border-radius: var(--radius-lg);
+            padding: 32px;
+            margin: 32px 0;
+            box-shadow: var(--shadow-soft);
+            border: 1px solid rgba(26, 26, 46, 0.06);
+        }
+
+        .decision-tree-title {
+            font-family: 'Fraunces', serif;
+            font-size: 1.25rem;
+            font-weight: 500;
+            color: var(--ink);
+            margin-bottom: 24px;
+        }
+
+        .decision-question {
+            font-size: 1.1rem;
+            color: var(--ink);
+            margin-bottom: 20px;
+            padding-bottom: 16px;
+            border-bottom: 2px solid var(--brand-blue);
+        }
+
+        .decision-branch {
+            margin-bottom: 24px;
+            padding-left: 24px;
+            border-left: 3px solid var(--cream-dark);
+        }
+
+        .decision-branch:last-child {
+            margin-bottom: 0;
+        }
+
+        .branch-label {
+            display: inline-block;
+            padding: 6px 16px;
+            border-radius: 100px;
+            font-weight: 600;
+            font-size: 13px;
+            margin-bottom: 12px;
+        }
+
+        .decision-branch.yes .branch-label {
+            background: #E8F5E9;
+            color: #2E7D32;
+        }
+
+        .decision-branch.no .branch-label {
+            background: var(--cream-dark);
+            color: var(--ink-light);
+        }
+
+        .branch-content {
+            padding-left: 8px;
+        }
+
+        .branch-content p {
+            font-size: 15px;
+            color: var(--ink);
+            margin-bottom: 12px;
+        }
+
+        .branch-options {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .branch-option {
+            background: var(--cream);
+            padding: 16px 20px;
+            border-radius: var(--radius);
+            font-size: 14px;
+            line-height: 1.6;
+            color: var(--ink);
+        }
+
+        .option-label {
+            display: inline-block;
+            font-weight: 700;
+            color: var(--brand-blue);
+            margin-right: 4px;
+        }
+
+        /* Subsection titles */
+        .subsection-title {
+            font-family: 'Fraunces', serif;
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: var(--ink);
+            margin: 24px 0 16px;
+        }
+
+        /* Recommendation callout variant */
+        .guidance-callout.recommendation {
+            background: var(--brand-blue-light);
+            border-left-color: var(--brand-blue);
+        }
+
+        .guidance-callout.recommendation .guidance-callout-title {
+            color: var(--brand-blue);
+        }
+
         .guidance-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -1046,6 +1363,421 @@
                 white-space: nowrap;
             }
         }
+
+        /* AI Literacy Standards Styles */
+        .standards-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding-bottom: 60px;
+        }
+
+        .standards-title {
+            font-size: 1.75rem;
+            color: var(--navy);
+            margin-bottom: 12px;
+        }
+
+        .standards-intro {
+            color: var(--gray-600);
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 32px;
+        }
+
+        .standards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 24px;
+        }
+
+        .standard-card {
+            background: white;
+            border: 1px solid var(--gray-200);
+            border-radius: 12px;
+            padding: 24px;
+            transition: box-shadow 0.2s ease, transform 0.2s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .standard-card:hover {
+            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+            transform: translateY(-2px);
+        }
+
+        .standard-header {
+            margin-bottom: 16px;
+        }
+
+        .standard-badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 10px;
+        }
+
+        .standard-badge.international {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+
+        .standard-badge.federal {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        .standard-badge.k12 {
+            background: #d1fae5;
+            color: #065f46;
+        }
+
+        .standard-header h3 {
+            font-size: 1.1rem;
+            color: var(--brand-blue-dark);
+            margin: 0;
+        }
+
+        .standard-description {
+            color: var(--gray-600);
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .standard-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            color: var(--primary);
+            font-weight: 500;
+            font-size: 14px;
+            text-decoration: none;
+            transition: gap 0.2s ease;
+            margin-top: auto;
+        }
+
+        .standard-link:hover {
+            gap: 10px;
+            text-decoration: underline;
+        }
+
+        .standard-link svg {
+            flex-shrink: 0;
+        }
+
+        /* Embedding AI into Core Content Styles */
+        .embedding-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .embedding-title {
+            font-size: 1.75rem;
+            color: var(--navy);
+            margin-bottom: 24px;
+        }
+
+        .embedding-lead {
+            font-size: 17px;
+            line-height: 1.7;
+            color: var(--gray-700);
+            margin-bottom: 32px;
+        }
+
+        .embedding-why {
+            background: white;
+            border: 1px solid var(--gray-200);
+            border-radius: 12px;
+            padding: 28px;
+            margin-bottom: 32px;
+        }
+
+        .embedding-why h3 {
+            font-size: 1.1rem;
+            color: var(--brand-blue-dark);
+            margin-bottom: 16px;
+        }
+
+        .embedding-why ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .embedding-why li {
+            padding: 10px 0;
+            padding-left: 24px;
+            position: relative;
+            color: var(--gray-600);
+            line-height: 1.6;
+            border-bottom: 1px solid var(--gray-100);
+        }
+
+        .embedding-why li:last-child {
+            border-bottom: none;
+        }
+
+        .embedding-why li::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 16px;
+            width: 8px;
+            height: 8px;
+            background: var(--brand-blue-dark);
+            border-radius: 50%;
+        }
+
+        .embedding-cta-top {
+            margin-bottom: 32px;
+        }
+
+        /* Guidance Toggle Styles */
+        .guidance-toggle-wrapper {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 32px;
+            border-bottom: 1px solid var(--gray-200);
+        }
+
+        .guidance-main-title {
+            font-size: 1.75rem;
+            color: var(--navy);
+            margin-bottom: 8px;
+        }
+
+        .guidance-toggle-intro {
+            color: var(--gray-500);
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .guidance-toggle {
+            display: inline-flex;
+            gap: 12px;
+            background: var(--gray-100);
+            padding: 6px;
+            border-radius: 12px;
+        }
+
+        .guidance-toggle-btn {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 14px 24px;
+            border: none;
+            background: transparent;
+            color: var(--gray-600);
+            font-size: 15px;
+            font-weight: 500;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+        }
+
+        .guidance-toggle-btn:hover {
+            color: var(--navy);
+        }
+
+        .guidance-toggle-btn.active {
+            background: white;
+            color: var(--navy);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .guidance-toggle-btn .toggle-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .guidance-toggle-btn.active .toggle-icon {
+            color: var(--brand-blue-dark);
+        }
+
+        .guidance-content-section {
+            display: none;
+        }
+
+        .guidance-content-section.active {
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            .guidance-toggle {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .guidance-toggle-btn {
+                justify-content: center;
+            }
+        }
+
+        .embedding-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--brand-blue-dark);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 15px;
+            text-decoration: none;
+            transition: background 0.2s ease, transform 0.2s ease;
+        }
+
+        .embedding-link:hover {
+            background: var(--navy);
+            transform: translateY(-2px);
+        }
+
+        /* Sub-tabs within resources panel */
+        .sub-tabs {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 24px;
+            border-bottom: 2px solid var(--gray-200);
+            padding-bottom: 12px;
+        }
+
+        .sub-tab {
+            padding: 8px 20px;
+            border: none;
+            background: transparent;
+            color: var(--gray-500);
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            border-radius: 6px;
+            transition: all 0.2s ease;
+        }
+
+        .sub-tab:hover {
+            background: var(--gray-100);
+            color: var(--gray-700);
+        }
+
+        .sub-tab.active {
+            background: var(--navy);
+            color: white;
+        }
+
+        .sub-panel {
+            display: none;
+        }
+
+        .sub-panel.active {
+            display: block;
+        }
+
+        /* Comparison Chart Styles */
+        .chart-intro {
+            margin-bottom: 16px;
+            color: var(--gray-600);
+            font-size: 13px;
+        }
+
+        .comparison-chart-wrapper {
+            overflow: auto;
+            max-height: 80vh;
+            border: 1px solid var(--gray-200);
+            border-radius: 8px;
+            background: white;
+        }
+
+        .comparison-chart {
+            width: max-content;
+            min-width: 100%;
+            border-collapse: collapse;
+            font-size: 11px;
+            line-height: 1.3;
+        }
+
+        .comparison-chart thead th {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            background: var(--navy);
+            color: white;
+            padding: 8px 10px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 11px;
+            white-space: nowrap;
+            border-right: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .comparison-chart td {
+            padding: 6px 8px;
+            border-bottom: 1px solid var(--gray-200);
+            border-right: 1px solid var(--gray-100);
+            vertical-align: top;
+            white-space: nowrap;
+        }
+
+        .comparison-chart td.chart-curriculum-name {
+            font-weight: 600;
+            max-width: 150px;
+            white-space: normal;
+        }
+
+        .comparison-chart td.chart-curriculum-name a {
+            color: var(--navy);
+            text-decoration: none;
+        }
+
+        .comparison-chart td.chart-curriculum-name a:hover {
+            text-decoration: underline;
+            color: var(--primary);
+        }
+
+        .comparison-chart tbody tr:nth-child(even) {
+            background: var(--gray-50);
+        }
+
+        .comparison-chart tbody tr:hover td {
+            background: var(--blue-50, #eff6ff);
+        }
+
+        .chart-grade-badges {
+            display: flex;
+            gap: 2px;
+            flex-wrap: nowrap;
+        }
+
+        .chart-grade-badge {
+            padding: 1px 5px;
+            border-radius: 3px;
+            font-size: 10px;
+            font-weight: 500;
+        }
+
+        .chart-grade-badge.es { background: #fef3c7; color: #92400e; }
+        .chart-grade-badge.ms { background: #dbeafe; color: #1e40af; }
+        .chart-grade-badge.hs { background: #f3e8ff; color: #6b21a8; }
+
+        .chart-check {
+            color: var(--success);
+            font-weight: bold;
+        }
+
+        .chart-x {
+            color: var(--gray-300);
+        }
+
+        .chart-cell-desc {
+            font-size: 10px;
+            line-height: 1.3;
+            color: var(--gray-600);
+            max-width: 200px;
+            white-space: normal;
+        }
     </style>
 </head>
 <body>
@@ -1056,31 +1788,160 @@
                 <span class="header-eyebrow">Curated Resource Collection</span>
                 <h1>AI Literacy Curriculum Hub</h1>
                 <p class="header-subtitle">Discover curated teaching resources to help students understand artificial intelligence, its capabilities, limitations, and societal impact.</p>
-                <div class="header-meta">
-                    <span>
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
-                        </svg>
-                        <span id="total-count">26 Resources</span>
-                    </span>
-                    <span>
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>
-                        </svg>
-                        Updated March 2025
-                    </span>
-                </div>
             </div>
         </header>
 
         <!-- Tab Navigation -->
         <div class="tabs">
-            <button class="tab active" data-tab="resources">Browse Resources</button>
+            <button class="tab active" data-tab="vision">Vision</button>
+            <button class="tab" data-tab="standards">AI Literacy Standards</button>
+            <button class="tab" data-tab="resources">Pathway 1: Standalone Curriculum</button>
+            <button class="tab" data-tab="embedding">Pathway 2: Core Content Integration</button>
             <button class="tab" data-tab="guidance">Implementation Guidance</button>
         </div>
 
+        <!-- Vision Tab Panel -->
+        <div class="tab-panel active" id="vision-panel">
+            <div class="vision-container">
+                <h2 class="vision-title">Why AI Literacy Matters: A Call to Action for Every School</h2>
+
+                <p class="vision-lead">
+                    Every student deserves to be prepared to thrive in an AI-powered world — not as a passive consumer of technology, but as an empowered user and builder of AI. AI literacy must stand alongside reading, writing, and mathematics as a core component of a strong academic model: planned for, taught, and assessed with the same intention as every other academic priority.
+                </p>
+
+                <p class="vision-text">
+                    The urgency is real. Employers are increasingly demanding AI skills, and equity gaps are already emerging in who does and does not have access to this technology. Students from high-income families are using AI at significantly higher rates than their low-income peers, creating a new divide in who will be most prepared for college and career. Inaction is not neutral. It widens the gap and places the students who most need our commitment at a growing disadvantage in the world they are preparing to enter.
+                </p>
+
+                <p class="vision-text">
+                    Getting started doesn't require a perfect plan — and there's more than one path forward. The most powerful approach is embedding AI literacy directly into core content instruction, where students encounter AI as a natural part of how they learn math, science, ELA, and other subjects. This is also the most complex path, requiring curriculum redesign, cross-departmental coordination, and sustained investment in educator capacity. For many schools, a more immediate and accessible starting point is dedicating specific instructional time to AI literacy — through advisory blocks, a common elective, or other dedicated spaces in the schedule. These standalone options allow schools to begin building student AI fluency now, even as they work toward deeper integration over time. This guide is designed as a resource hub for those standalone approaches: practical tools and session-ready content that schools can pick up and use to get AI literacy into students' hands without waiting for a full curricular overhaul.
+                </p>
+
+                <p class="vision-text">
+                    Whichever path a school takes, the goal is the same — AI-literate students who can:
+                </p>
+
+                <div class="vision-goals-grid">
+                    <div class="vision-goal-card">
+                        <div class="vision-goal-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/>
+                            </svg>
+                        </div>
+                        <h3>Understand AI's Impact</h3>
+                        <p>Critically evaluating both AI's benefits (increased accessibility, efficiency, and innovation) and its risks (bias, privacy concerns, and job displacement), recognizing that AI's impact varies by context and requires thoughtful consideration rather than simple judgments.</p>
+                    </div>
+
+                    <div class="vision-goal-card">
+                        <div class="vision-goal-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/>
+                            </svg>
+                        </div>
+                        <h3>Understand AI's Design</h3>
+                        <p>Comprehending how AI systems function by processing data, identifying patterns through algorithms, and generating predictions or decisions based on learned associations.</p>
+                    </div>
+
+                    <div class="vision-goal-card">
+                        <div class="vision-goal-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                            </svg>
+                        </div>
+                        <h3>Use AI Skillfully</h3>
+                        <p>Strategically deploying AI tools by assessing their appropriateness for specific tasks, crafting effective prompts, iteratively refining outputs through dialogue, and critically evaluating results for accuracy, bias, and relevance.</p>
+                    </div>
+
+                    <div class="vision-goal-card">
+                        <div class="vision-goal-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 3l1.912 5.813h6.124l-4.962 3.612 1.912 5.813L12 14.625l-4.986 3.613 1.912-5.813-4.962-3.612h6.124z"/>
+                            </svg>
+                        </div>
+                        <h3>Design with AI</h3>
+                        <p>Applying their understanding of AI principles to design and build solutions that address authentic real-world challenges, moving from consumers to creators of AI-enhanced tools.</p>
+                    </div>
+                </div>
+
+                <div class="vision-closing">
+                    <p>
+                        This work isn't optional and it isn't peripheral — it's at the heart of what schools exist to do. Preparing students for the world they'll actually inherit means preparing them for a world shaped by AI. Every school that takes this on is making a promise to its students: <strong>we will not let your zip code, your family's income, or your background determine whether you're ready for what's next.</strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- AI Literacy Standards Tab Panel -->
+        <div class="tab-panel" id="standards-panel">
+            <div class="standards-container">
+                <h2 class="standards-title">AI Literacy Standards & Frameworks</h2>
+                <p class="standards-intro">
+                    These frameworks provide the foundation for understanding what AI literacy means and what students should know and be able to do. Use them to guide curriculum selection, align instruction to emerging standards, and communicate your AI literacy goals to stakeholders.
+                </p>
+
+                <div class="standards-grid">
+                    <div class="standard-card">
+                        <div class="standard-header">
+                            <h3>OECD/EC AILit Framework</h3>
+                        </div>
+                        <p class="standard-description">
+                            The leading international standard for K-12 AI literacy, organizing student competencies around four domains (<strong>Engage, Create, Manage, and Design AI</strong>) and set to become the backbone of PISA 2029 assessments.
+                        </p>
+                        <a href="https://ailiteracyframework.org/" target="_blank" class="standard-link">
+                            Explore Framework
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <div class="standard-card">
+                        <div class="standard-header">
+                            <h3>U.S. DOL AI Literacy Framework</h3>
+                        </div>
+                        <p class="standard-description">
+                            A brand-new federal workforce framework outlining <strong>five content areas</strong> and <strong>seven delivery principles</strong> for AI skill development.
+                        </p>
+                        <a href="https://www.dol.gov/sites/dolgov/files/OPA/newsreleases/2026/02/ETA-20260212-hi.jpg" target="_blank" class="standard-link">
+                            Explore Framework
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <div class="standard-card">
+                        <div class="standard-header">
+                            <h3>aiEDU AI Readiness Framework</h3>
+                        </div>
+                        <p class="standard-description">
+                            A K-12-focused framework that distinguishes AI literacy from AI readiness and provides <strong>competency rubrics</strong> for students, educators, school leaders, and districts.
+                        </p>
+                        <a href="https://www.aiedu.org/ai-readiness-framework-new" target="_blank" class="standard-link">
+                            Explore Framework
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Resources Tab Panel -->
-        <div class="tab-panel active" id="resources-panel">
+        <div class="tab-panel" id="resources-panel">
+            <p class="pathway-intro">
+                Standalone instruction is the fastest way to get AI literacy in front of every student. This reduces the need for curriculum overhaul, and there are resources ready made and ready to go.
+            </p>
+
+            <!-- Sub-tabs for Card View vs Comparison Chart -->
+            <div class="sub-tabs">
+                <button class="sub-tab active" data-subtab="cards">Card View</button>
+                <button class="sub-tab" data-subtab="chart">Comparison Chart</button>
+            </div>
+
+            <!-- Card View Sub-panel -->
+            <div class="sub-panel active" id="cards-subpanel">
             <div class="controls">
                 <div class="search-wrapper">
                     <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -1103,7 +1964,7 @@
                         <span class="filter-label">Features</span>
                         <div class="filter-chips">
                             <button class="chip hands-on" data-filter="feature" data-value="handsOn">Hands-on AI</button>
-                            <button class="chip" data-filter="feature" data-value="sequential">Sequential</button>
+                            <button class="chip" data-filter="feature" data-value="sequential" title="Sequential curriculum means lessons are connected and build on each other within a unit, rather than functioning as one-off, standalone lessons.">Sequential</button>
                             <button class="chip" data-filter="feature" data-value="lessonPlans">Lesson Plans</button>
                             <button class="chip" data-filter="feature" data-value="videos">Videos</button>
                         </div>
@@ -1112,261 +1973,522 @@
             </div>
 
             <div class="results-info">
-                <span class="results-count">Showing <span id="showing-count">26</span> resources</span>
                 <button class="clear-filters" id="clear-filters">Clear all filters</button>
             </div>
 
             <div class="resources-grid" id="resources-grid">
                 <!-- Cards will be injected here -->
             </div>
+            </div>
+
+            <!-- Comparison Chart Sub-panel -->
+            <div class="sub-panel" id="chart-subpanel">
+                <div class="chart-intro">
+                    <p>Compare all curriculum resources side-by-side. Scroll horizontally to see all options.</p>
+                </div>
+                <div class="comparison-chart-wrapper">
+                    <table class="comparison-chart" id="comparison-chart">
+                        <thead>
+                            <tr id="chart-header">
+                                <!-- Header will be injected by JS -->
+                            </tr>
+                        </thead>
+                        <tbody id="chart-body">
+                            <!-- Rows will be injected by JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Embedding AI into Core Content Tab Panel -->
+        <div class="tab-panel" id="embedding-panel">
+            <div class="embedding-container">
+                <h2 class="embedding-title">Embedding AI into Core Content</h2>
+
+                <div class="embedding-content">
+                    <p class="embedding-lead">
+                        Standalone instruction builds the foundation. Embedding AI into core content areas like math, science, ELA, and social studies takes it further by connecting AI skills to what students are already learning.
+                    </p>
+
+                    <div class="embedding-cta-top">
+                        <a href="https://instructional-frameworks.ai/#frameworks" target="_blank" class="embedding-link">
+                            Explore AI Instructional Frameworks
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <div class="embedding-why">
+                        <h3>Why This Matters</h3>
+                        <ul>
+                            <li><strong>Deeper learning:</strong> Students see AI not as an isolated topic, but as a tool that transforms how they engage with every subject</li>
+                            <li><strong>Authentic application:</strong> AI becomes meaningful when students use it to solve real problems in context — analyzing data in science, drafting arguments in ELA, or exploring historical sources in social studies</li>
+                            <li><strong>Sustainable integration:</strong> Rather than competing for limited schedule space, AI literacy becomes woven into existing instruction</li>
+                            <li><strong>Teacher capacity:</strong> Content teachers build AI fluency alongside their students, creating lasting shifts in practice</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- Implementation Guidance Tab Panel -->
         <div class="tab-panel" id="guidance-panel">
             <div class="guidance-container">
-                <p class="guidance-intro">
-                    Implementing AI literacy curriculum requires thoughtful planning beyond just selecting resources.
-                    Use this guide to think through key decisions that will set your implementation up for success.
-                </p>
 
+                <!-- Toggle for Standalone vs Embedding -->
+                <div class="guidance-toggle-wrapper">
+                    <h2 class="guidance-main-title">Implementation Guidance</h2>
+                    <p class="guidance-toggle-intro">Select your implementation approach:</p>
+                    <div class="guidance-toggle">
+                        <button class="guidance-toggle-btn active" data-guidance="standalone">
+                            <span class="toggle-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 12h6"/><path d="M12 9v6"/>
+                                </svg>
+                            </span>
+                            Pathway 1: Standalone Curriculum
+                        </button>
+                        <button class="guidance-toggle-btn" data-guidance="embedding">
+                            <span class="toggle-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="3"/><path d="M12 2v4"/><path d="M12 18v4"/><path d="M4.93 4.93l2.83 2.83"/><path d="M16.24 16.24l2.83 2.83"/><path d="M2 12h4"/><path d="M18 12h4"/><path d="M4.93 19.07l2.83-2.83"/><path d="M16.24 7.76l2.83-2.83"/>
+                                </svg>
+                            </span>
+                            Pathway 2: Core Content Integration
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Standalone Guidance Content -->
+                <div class="guidance-content-section active" id="standalone-guidance">
+
+                <!-- Section 1: Where Does AI Literacy Live? -->
                 <div class="guidance-section">
                     <div class="guidance-section-header">
                         <div class="guidance-number">1</div>
-                        <h2 class="guidance-title">Sequential vs. Plug-and-Play</h2>
+                        <h2 class="guidance-title">Where Does AI Literacy Live?</h2>
                     </div>
                     <div class="guidance-content">
                         <p class="guidance-text">
-                            One of your first decisions is whether you need a curriculum where lessons build on each other (sequential)
-                            or standalone lessons that can be used independently (plug-and-play).
+                            This is a highly consequential decision. It determines which students get access, how deep the learning goes, and what it takes to implement. Use the comparison below to weigh your options.
                         </p>
 
-                        <div class="guidance-grid">
-                            <div class="guidance-card">
-                                <h3 class="guidance-card-title">Sequential Curriculum</h3>
-                                <p>Best when you have dedicated time (e.g., a unit, course, or weekly slot) and want students to develop deep, cumulative understanding. Concepts build on prior knowledge.</p>
-                            </div>
-                            <div class="guidance-card">
-                                <h3 class="guidance-card-title">Plug-and-Play Lessons</h3>
-                                <p>Best when integrating AI into existing courses, using for advisory/homeroom, or when you need flexibility. Each lesson stands alone and can be taught in any order.</p>
-                            </div>
+                        <div class="comparison-table-wrapper">
+                            <table class="comparison-table">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>Advisory / Homeroom</th>
+                                        <th>Dedicated Elective</th>
+                                        <th>Computer Science Course</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="row-label">Student reach</td>
+                                        <td>All students</td>
+                                        <td>Self-selected students</td>
+                                        <td>Students enrolled in CS</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="row-label">Depth of learning</td>
+                                        <td>Introductory</td>
+                                        <td>Deep</td>
+                                        <td>Deep, technically focused</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="row-label">Curriculum type</td>
+                                        <td>Standalone lessons (plug-and-play)</td>
+                                        <td>Sequential or standalone</td>
+                                        <td>Sequential</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="row-label">Implementation lift</td>
+                                        <td><span class="lift-tag low">Low</span> — fits existing structure</td>
+                                        <td><span class="lift-tag medium">Medium</span> — requires scheduling</td>
+                                        <td><span class="lift-tag medium">Medium</span> — requires staffing</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="row-label">Best for schools that...</td>
+                                        <td>Want universal access quickly with minimal disruption</td>
+                                        <td>Can offer a dedicated course and want depth</td>
+                                        <td>Already have CS and want to expand its scope</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="row-label">Watch out for...</td>
+                                        <td>Competing priorities and limited time per session</td>
+                                        <td>Only reaching students who opt in</td>
+                                        <td>Excluding students not in CS pathways</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
 
-                        <div class="guidance-question">
-                            <div class="guidance-question-title">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/>
-                                </svg>
-                                Questions to Consider
-                            </div>
-                            <ul>
-                                <li>How much dedicated instructional time do you have for AI literacy?</li>
-                                <li>Do you need flexibility to adapt to schedule changes?</li>
-                                <li>Are you supplementing existing curriculum or creating a standalone offering?</li>
-                            </ul>
+                        <div class="guidance-callout">
+                            <div class="guidance-callout-title">A Note on the Long Game</div>
+                            <p>
+                                Integrating AI literacy into core content instruction is the most powerful approach — students encounter AI in the context of real academic work across subjects. It's also the most complex, requiring curriculum redesign, educator training, and cross-departmental alignment. Most schools aren't starting here, and that's fine. The standalone approaches in this hub are designed to get AI literacy into students' hands now while you build toward deeper integration over time.
+                            </p>
                         </div>
                     </div>
                 </div>
 
+                <!-- Section 2: Choosing Your Curriculum Type -->
                 <div class="guidance-section">
                     <div class="guidance-section-header">
                         <div class="guidance-number">2</div>
-                        <h2 class="guidance-title">Pilot Before You Scale</h2>
+                        <h2 class="guidance-title">Choosing Your Curriculum Type</h2>
                     </div>
                     <div class="guidance-content">
                         <p class="guidance-text">
-                            Before rolling out AI literacy curriculum school-wide or district-wide, identify a pilot group
-                            to learn from. This allows you to test, iterate, and build internal expertise before broader implementation.
+                            Once you know where AI literacy will live, match your curriculum type to that context.
                         </p>
 
-                        <div class="guidance-callout">
-                            <div class="guidance-callout-title">Why Pilot First?</div>
-                            <p>
-                                Piloting helps you identify what works in your specific context, surface unexpected challenges,
-                                build teacher confidence and expertise, and create internal champions who can support colleagues during scale-up.
-                            </p>
-                        </div>
-
-                        <p class="guidance-text"><strong>Consider piloting with:</strong></p>
-                        <ul class="guidance-list">
-                            <li>A small group of enthusiastic teachers who volunteer</li>
-                            <li>A specific grade level or department</li>
-                            <li>An elective course or after-school program</li>
-                            <li>A single school before expanding district-wide</li>
-                        </ul>
-
-                        <div class="guidance-question">
-                            <div class="guidance-question-title">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/>
-                                </svg>
-                                Questions to Consider
-                            </div>
-                            <ul>
-                                <li>Who are your early adopters who would be excited to pilot?</li>
-                                <li>What's a reasonable pilot duration to gather meaningful feedback?</li>
-                                <li>How will you collect and act on feedback from the pilot?</li>
-                                <li>What does success look like for your pilot?</li>
-                            </ul>
+                        <div class="comparison-table-wrapper">
+                            <table class="comparison-table two-col">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>Sequential Curriculum</th>
+                                        <th>Plug-and-Play Lessons</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="row-label">How it works</td>
+                                        <td>Lessons build on each other in a designed sequence</td>
+                                        <td>Each lesson stands alone and can be taught in any order</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="row-label">Best paired with</td>
+                                        <td>Dedicated course</td>
+                                        <td>Advisory, homeroom, or integration into existing courses</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="row-label">Requires</td>
+                                        <td>Recurring instructional time and a planned scope & sequence</td>
+                                        <td>Flexibility — teachers choose what fits and when</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="row-label">Advantage</td>
+                                        <td>Cumulative understanding; students develop deeper knowledge over time</td>
+                                        <td>Low barrier to entry; easier to start and adapt</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="row-label">Trade-off</td>
+                                        <td>Less flexible; harder to implement in fragmented schedules</td>
+                                        <td>Less cohesion; students may get a patchwork experience</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
 
+                <!-- Section 3: Adding AI Literacy Without Breaking What Works -->
                 <div class="guidance-section">
                     <div class="guidance-section-header">
                         <div class="guidance-number">3</div>
-                        <h2 class="guidance-title">Where Does This Live?</h2>
+                        <h2 class="guidance-title">Adding AI Literacy Without Breaking What Works</h2>
                     </div>
                     <div class="guidance-content">
                         <p class="guidance-text">
-                            Think carefully about where AI literacy instruction will happen in your school structure.
-                            The right home for this curriculum depends on your goals, existing structures, and resources.
+                            A common concern: does this mean adding more to already full plates? There are three approaches, and the right one depends on your school's capacity.
                         </p>
 
-                        <div class="guidance-grid">
-                            <div class="guidance-card">
-                                <h3 class="guidance-card-title">Advisory / Homeroom</h3>
-                                <p>Ensures all students get exposure. Works well with short, standalone lessons. May have limited time and competing priorities.</p>
-                            </div>
-                            <div class="guidance-card">
-                                <h3 class="guidance-card-title">Dedicated Elective</h3>
-                                <p>Allows for deeper exploration and sequential curriculum. Reaches self-selected students who may already be interested.</p>
-                            </div>
-                            <div class="guidance-card">
-                                <h3 class="guidance-card-title">Integrated into Core Classes</h3>
-                                <p>Connects AI to subject-area content. Requires teacher buy-in and training. Can feel more relevant and applied.</p>
-                            </div>
-                            <div class="guidance-card">
-                                <h3 class="guidance-card-title">Computer Science Course</h3>
-                                <p>Natural fit for technical AI content. May not reach all students. Can go deeper on how AI actually works.</p>
-                            </div>
+                        <div class="comparison-table-wrapper">
+                            <table class="comparison-table four-col">
+                                <thead>
+                                    <tr>
+                                        <th>Approach</th>
+                                        <th>What it looks like</th>
+                                        <th>Best when...</th>
+                                        <th>Risk to manage</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="row-label">Supplement</td>
+                                        <td>AI content is added alongside existing curriculum</td>
+                                        <td>Teachers have capacity and time exists in the schedule</td>
+                                        <td>Teacher overload; feeling like "one more thing"</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="row-label">Supplant</td>
+                                        <td>AI content replaces existing curriculum or courses</td>
+                                        <td>You can identify content that's outdated or less essential</td>
+                                        <td>Resistance if beloved content is cut; stakeholder pushback</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
 
-                        <div class="guidance-question">
-                            <div class="guidance-question-title">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/>
-                                </svg>
-                                Questions to Consider
-                            </div>
-                            <ul>
-                                <li>Do you want all students to receive AI literacy instruction, or is this targeted?</li>
-                                <li>What existing structures could house this curriculum?</li>
-                                <li>Who would teach it, and what support would they need?</li>
-                                <li>How much instructional time can you realistically allocate?</li>
-                            </ul>
+                        <div class="guidance-callout recommendation">
+                            <div class="guidance-callout-title">Our Recommendation</div>
+                            <p>
+                                <strong>For most schools starting out: Supplement first</strong> using a dedicated space like advisory. This avoids disrupting existing courses and lets you build evidence for what works before making bigger curricular moves.
+                            </p>
                         </div>
                     </div>
                 </div>
 
+                <!-- Section 4: Start with a Pilot -->
                 <div class="guidance-section">
                     <div class="guidance-section-header">
                         <div class="guidance-number">4</div>
-                        <h2 class="guidance-title">Supplement or Supplant?</h2>
+                        <h2 class="guidance-title">Start with a Pilot</h2>
                     </div>
                     <div class="guidance-content">
                         <p class="guidance-text">
-                            A critical question: Is AI literacy curriculum adding to what you already teach, or is it replacing something?
-                            This decision has implications for teacher workload, scheduling, and stakeholder buy-in.
+                            Don't go school-wide on day one. A focused pilot lets you test, learn, and build internal champions before scaling.
                         </p>
 
-                        <div class="guidance-grid">
-                            <div class="guidance-card">
-                                <h3 class="guidance-card-title">Supplementing</h3>
-                                <p>AI content is added on top of existing curriculum. May require finding additional time. Teachers maintain their current courses while adding AI elements.</p>
-                            </div>
-                            <div class="guidance-card">
-                                <h3 class="guidance-card-title">Supplanting</h3>
-                                <p>AI content replaces existing curriculum or course offerings. Requires deciding what to remove. May face resistance if beloved content is cut.</p>
-                            </div>
-                        </div>
+                        <h3 class="subsection-title">Choosing your pilot group:</h3>
 
-                        <div class="guidance-callout">
-                            <div class="guidance-callout-title">A Third Option: Integration</div>
-                            <p>
-                                Rather than purely adding or replacing, consider how AI literacy can be woven into existing learning objectives.
-                                For example, teaching about AI bias during a unit on persuasive writing, or exploring AI-generated art in a visual arts class.
-                            </p>
+                        <div class="comparison-table-wrapper">
+                            <table class="comparison-table three-col">
+                                <thead>
+                                    <tr>
+                                        <th>Pilot approach</th>
+                                        <th>Why it works</th>
+                                        <th>What to watch</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>A few enthusiastic volunteer teachers</td>
+                                        <td>Built-in motivation; fast feedback loops</td>
+                                        <td>May not surface challenges that less enthusiastic teachers will face</td>
+                                    </tr>
+                                    <tr>
+                                        <td>A single grade level or department</td>
+                                        <td>Easier to coordinate and compare results</td>
+                                        <td>May miss how it plays differently across grade levels</td>
+                                    </tr>
+                                    <tr>
+                                        <td>An elective or after-school program</td>
+                                        <td>Low stakes; room to experiment</td>
+                                        <td>Lessons may not transfer to core instruction contexts</td>
+                                    </tr>
+                                    <tr>
+                                        <td>One school before expanding district-wide</td>
+                                        <td>Real-world test at full school scale</td>
+                                        <td>Takes longer; delays district-wide rollout</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
 
                         <div class="guidance-question">
                             <div class="guidance-question-title">
                                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/>
+                                    <path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
                                 </svg>
-                                Questions to Consider
+                                What to Define Before You Pilot
                             </div>
                             <ul>
-                                <li>Do teachers have capacity to add new content, or is something giving way?</li>
-                                <li>Are there natural integration points with existing curriculum?</li>
-                                <li>How will you communicate changes to teachers, students, and families?</li>
-                                <li>What existing content might be outdated or less essential?</li>
+                                <li>What does success look like? (student engagement, teacher confidence, skill development)</li>
+                                <li>How long does the pilot run before you evaluate?</li>
+                                <li>How are you collecting feedback from teachers <em>and</em> students?</li>
+                                <li>Who's responsible for synthesizing learnings and recommending next steps?</li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
+                <!-- Section 5: Preparing Teachers -->
                 <div class="guidance-section">
                     <div class="guidance-section-header">
                         <div class="guidance-number">5</div>
-                        <h2 class="guidance-title">Teacher Readiness & Support</h2>
+                        <h2 class="guidance-title">Preparing Teachers</h2>
                     </div>
                     <div class="guidance-content">
                         <p class="guidance-text">
-                            Even the best curriculum will fall flat without prepared teachers. Consider how you'll support educators
-                            who may be learning alongside their students.
+                            Even the strongest curriculum won't land without prepared, supported teachers — many of whom are learning AI alongside their students. That's okay, but it means support has to be intentional.
                         </p>
 
-                        <ul class="guidance-list">
-                            <li><strong>Professional development:</strong> Do teachers need training on AI concepts before teaching them?</li>
-                            <li><strong>Comfort with technology:</strong> Will teachers need hands-on practice with AI tools?</li>
-                            <li><strong>Ongoing support:</strong> How will teachers get help when questions arise mid-unit?</li>
-                            <li><strong>Community of practice:</strong> Can teachers learn from each other's experiences?</li>
-                        </ul>
+                        <h3 class="subsection-title">Match teacher support to your implementation approach:</h3>
+
+                        <div class="comparison-table-wrapper">
+                            <table class="comparison-table two-col-wide">
+                                <thead>
+                                    <tr>
+                                        <th>If your approach is...</th>
+                                        <th>Teachers need...</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="row-label">Advisory / homeroom with plug-and-play lessons</td>
+                                        <td>An orientation to the lessons and hands-on time with any AI tools students will use.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="row-label">A dedicated elective with sequential curriculum</td>
+                                        <td>Deeper PD on AI concepts, time to internalize the scope and sequence, and ongoing support as they teach new material for the first time.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+                <!-- End Standalone Guidance Content -->
+
+                <!-- Embedding Guidance Content -->
+                <div class="guidance-content-section" id="embedding-guidance">
+
+                <div class="guidance-callout" style="margin-bottom: 32px;">
+                    <div class="guidance-callout-title">Before You Begin</div>
+                    <p>
+                        Before you begin, define what success looks like. Is it teacher confidence? Quality of student AI interactions? Evidence that cognitive challenge is preserved? Name it now.
+                    </p>
+                </div>
+
+                <!-- Section 1: Decide on Scope -->
+                <div class="guidance-section">
+                    <div class="guidance-section-header">
+                        <div class="guidance-number">1</div>
+                        <h2 class="guidance-title">Decide on Scope — But Treat It as Two Decisions, Not One</h2>
+                    </div>
+                    <div class="guidance-content">
+                        <p class="guidance-text">
+                            Where to pilot and who drives it are interdependent, so think about them together.
+                        </p>
+
+                        <div class="guidance-question">
+                            <div class="guidance-question-title">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/>
+                                </svg>
+                                On Scope
+                            </div>
+                            <p style="margin-bottom: 12px; color: var(--gray-600);">Does this make most sense at the:</p>
+                            <ul>
+                                <li>Subject area/Department</li>
+                                <li>Grade level</li>
+                                <li>Within a specific team of teachers</li>
+                                <li>Across one unit</li>
+                                <li>In a targeted series of lessons</li>
+                            </ul>
+                        </div>
+
+                        <div class="guidance-question">
+                            <div class="guidance-question-title">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                                </svg>
+                                On Ownership
+                            </div>
+                            <p style="margin-bottom: 12px; color: var(--gray-600);">Is this living with:</p>
+                            <ul>
+                                <li>A curriculum team pushing guidance to all pilot teachers</li>
+                                <li>Instructional coaches working alongside individual teachers</li>
+                                <li>A self-selected group of teachers ready to take this on themselves</li>
+                            </ul>
+                        </div>
 
                         <div class="guidance-callout">
-                            <div class="guidance-callout-title">Tip</div>
+                            <div class="guidance-callout-title">Key Insight</div>
                             <p>
-                                Many of the resources in this hub include teacher guides, videos, and professional development materials.
-                                Look for resources that support teacher learning, not just student-facing content.
+                                The answer to ownership will likely shape scope, and vice versa. These decisions are interdependent — make them together.
                             </p>
                         </div>
                     </div>
                 </div>
 
+                <!-- Section 2: Identify Training Needs -->
                 <div class="guidance-section">
                     <div class="guidance-section-header">
-                        <div class="guidance-number">6</div>
-                        <h2 class="guidance-title">Access & Equity Considerations</h2>
+                        <div class="guidance-number">2</div>
+                        <h2 class="guidance-title">Identify Training Needs Based on Who's Driving Implementation</h2>
                     </div>
                     <div class="guidance-content">
                         <p class="guidance-text">
-                            AI literacy should be accessible to all students. Consider barriers that might prevent equitable access
-                            and plan proactively to address them.
+                            The framework itself provides substantial guidance and AI assistance for generating and embedding AI into lessons, but the pilot lead will need orientation before using it well.
                         </p>
-
-                        <ul class="guidance-list">
-                            <li><strong>Device access:</strong> Do all students have devices for hands-on AI activities?</li>
-                            <li><strong>Internet connectivity:</strong> Can students access AI tools both at school and home?</li>
-                            <li><strong>Account requirements:</strong> Some AI tools require accounts—is this a barrier?</li>
-                            <li><strong>Language accessibility:</strong> Are resources available in languages your students speak?</li>
-                            <li><strong>Representation:</strong> Do the examples and case studies reflect your students' experiences?</li>
-                        </ul>
 
                         <div class="guidance-question">
                             <div class="guidance-question-title">
                                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/>
+                                    <path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
                                 </svg>
-                                Questions to Consider
+                                Where Does Training Live?
                             </div>
                             <ul>
-                                <li>Which students might face barriers to accessing this curriculum?</li>
-                                <li>Are there "unplugged" alternatives for hands-on AI activities?</li>
-                                <li>How will you ensure AI literacy reaches all students, not just those in advanced or elective courses?</li>
+                                <li>Embedded in instructional coaching cycles</li>
+                                <li>Carved out of department meeting time</li>
+                                <li>Built into a subsection of faculty PD</li>
                             </ul>
+                        </div>
+
+                        <div class="guidance-callout recommendation">
+                            <div class="guidance-callout-title">Critical Point</div>
+                            <p>
+                                The answer depends on context, but it should be <strong>decided before the pilot launches</strong>, not figured out along the way.
+                            </p>
                         </div>
                     </div>
                 </div>
+
+                <!-- Section 3: Prepare Students -->
+                <div class="guidance-section">
+                    <div class="guidance-section-header">
+                        <div class="guidance-number">3</div>
+                        <h2 class="guidance-title">Prepare Students, Not Just Teachers</h2>
+                    </div>
+                    <div class="guidance-content">
+                        <p class="guidance-text">
+                            Since the framework is designed to build student AI agency and preserve student cognitive work, students shouldn't experience it as something happening <em>to</em> them.
+                        </p>
+
+                        <div class="guidance-callout">
+                            <div class="guidance-callout-title">Student Framing</div>
+                            <p>
+                                Consider how students will be introduced to what the framework is trying to do and why — even a brief framing can shift how they engage with AI interactions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 4: Build a Feedback Loop -->
+                <div class="guidance-section">
+                    <div class="guidance-section-header">
+                        <div class="guidance-number">4</div>
+                        <h2 class="guidance-title">Build a Feedback Loop with a Clear Path Forward</h2>
+                    </div>
+                    <div class="guidance-content">
+                        <p class="guidance-text">
+                            Track implementation through close work with pilot teachers and, where possible, student focus groups. But tracking alone isn't enough.
+                        </p>
+
+                        <div class="guidance-question">
+                            <div class="guidance-question-title">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
+                                </svg>
+                                Decide in Advance
+                            </div>
+                            <ul>
+                                <li>Who receives the feedback?</li>
+                                <li>What cadence is it being reviewed on?</li>
+                                <li>What threshold would trigger an expansion of the pilot versus a pause to iterate?</li>
+                            </ul>
+                        </div>
+
+                        <div class="guidance-callout recommendation">
+                            <div class="guidance-callout-title">Why This Matters</div>
+                            <p>
+                                Pilots without a feedback-to-decision pathway tend to produce reports that don't drive change. Build the path from data to action before you start collecting data.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+                <!-- End Embedding Guidance Content -->
 
             </div>
         </div>
@@ -1773,6 +2895,19 @@
                 take: "Students become engineers and embark on a quest to tackle pressing AI issues. Use historical data, algebraic functions, and AI to forecast stock movements. Design a dream job.",
                 objectives: "SWBAT become engineers and embark on a quest to tackle pressing AI issues. SWBAT use historical data, algebraic functions, and AI to forecast stock movements. SWBAT design a dream job.",
                 access: "You'll have to login to access these materials."
+            },
+            {
+                from: "Code.org",
+                name: "Intro to Web Lab",
+                link: "https://code.org/en-US/tools/web-lab",
+                es: false, ms: true, hs: true,
+                lessons: "1 (self-paced)", time: "~50 min",
+                sequential: false, handsOn: true,
+                lessonPlans: true, videos: false, slides: false, handouts: false,
+                description: "Code.org's Intro to Web Lab is a self-paced lesson that introduces students in grades 8-12 to building webpages using HTML, CSS, and JavaScript with the support of AI Tutor — an AI assistant embedded directly in the coding environment. AI Tutor (powered by Gemini Flash 2.5, with a ChatGPT-4o Mini safety moderation layer) uses Socratic methods to guide students through designing, coding, and debugging their web projects. Rather than giving answers, it prompts thinking, encourages exploration, and scaffolds based on the individual student's level. The lesson is positioned as part of Code.org's Hour of AI initiative.",
+                take: "Use this resource if you are looking for a practical, hands-on introduction to how students can collaborate with AI as a creative and coding partner — not just learn about AI, but actively build with it. The strength here is the integration: AI Tutor lives inside the coding environment, so students experience AI assistance in the flow of real work (asking questions, generating code suggestions, debugging) rather than as a separate conceptual lesson. The Socratic design means students are pushed to think through problems rather than copy-paste outputs. The resource is currently a single lesson, though students can continue using the Web Lab coding environment and AI Tutor beyond the lesson to build additional projects and deepen their practice.",
+                objectives: "SWBAT design, code, and debug a simple webpage using HTML, CSS, and JavaScript. SWBAT collaborate with an AI assistant (AI Tutor) to ask questions, generate code suggestions, and debug their work. SWBAT use Socratic prompts from AI Tutor to reason through coding problems rather than rely on direct answers.",
+                access: "The Web Lab tool is free and accessible without login for open projects. However, to access the Intro to Web Lab curriculum and enable AI Tutor for students, teachers must have a verified Code.org teacher account and explicitly enable AI Tutor for their section. AI Tutor is currently available in English only."
             }
         ];
 
@@ -1786,7 +2921,7 @@
         // DOM Elements
         const searchInput = document.getElementById('search');
         const resourcesGrid = document.getElementById('resources-grid');
-        const showingCount = document.getElementById('showing-count');
+        const showingCount = document.getElementById('showing-count'); // May be null if element removed
         const clearFiltersBtn = document.getElementById('clear-filters');
         const chips = document.querySelectorAll('.chip');
         const modalOverlay = document.getElementById('modal-overlay');
@@ -1835,22 +2970,42 @@
             const tabs = document.querySelectorAll('.tab');
             const tabPanels = document.querySelectorAll('.tab-panel');
 
+            function activateTab(targetTab) {
+                // Update active tab
+                tabs.forEach(t => t.classList.remove('active'));
+                const activeTab = document.querySelector(`.tab[data-tab="${targetTab}"]`);
+                if (activeTab) activeTab.classList.add('active');
+
+                // Update active panel
+                tabPanels.forEach(panel => {
+                    panel.classList.remove('active');
+                    if (panel.id === `${targetTab}-panel`) {
+                        panel.classList.add('active');
+                    }
+                });
+            }
+
             tabs.forEach(tab => {
                 tab.addEventListener('click', () => {
                     const targetTab = tab.dataset.tab;
-
-                    // Update active tab
-                    tabs.forEach(t => t.classList.remove('active'));
-                    tab.classList.add('active');
-
-                    // Update active panel
-                    tabPanels.forEach(panel => {
-                        panel.classList.remove('active');
-                        if (panel.id === `${targetTab}-panel`) {
-                            panel.classList.add('active');
-                        }
-                    });
+                    activateTab(targetTab);
+                    // Update URL hash
+                    history.pushState(null, '', `#${targetTab}`);
                 });
+            });
+
+            // Check for hash on page load
+            if (window.location.hash) {
+                const hashTab = window.location.hash.substring(1);
+                activateTab(hashTab);
+            }
+
+            // Handle browser back/forward
+            window.addEventListener('hashchange', () => {
+                if (window.location.hash) {
+                    const hashTab = window.location.hash.substring(1);
+                    activateTab(hashTab);
+                }
             });
 
             modalOverlay.addEventListener('click', closeModal);
@@ -1900,7 +3055,7 @@
 
         // Render Resources
         function renderResources(data) {
-            showingCount.textContent = data.length;
+            if (showingCount) showingCount.textContent = data.length;
 
             if (data.length === 0) {
                 resourcesGrid.innerHTML = `
@@ -2017,6 +3172,99 @@
             modalOverlay.classList.remove('active');
             modal.classList.remove('active');
             document.body.style.overflow = '';
+        }
+
+        // Sub-tab switching
+        const subTabs = document.querySelectorAll('.sub-tab');
+        const subPanels = document.querySelectorAll('.sub-panel');
+
+        subTabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                const targetPanel = tab.dataset.subtab;
+
+                subTabs.forEach(t => t.classList.remove('active'));
+                subPanels.forEach(p => p.classList.remove('active'));
+
+                tab.classList.add('active');
+                document.getElementById(`${targetPanel}-subpanel`).classList.add('active');
+
+                // Generate chart on first view
+                if (targetPanel === 'chart' && !chartGenerated) {
+                    generateComparisonChart();
+                }
+            });
+        });
+
+        // Guidance toggle switching (Standalone vs Embedding)
+        const guidanceToggleBtns = document.querySelectorAll('.guidance-toggle-btn');
+        const guidanceContentSections = document.querySelectorAll('.guidance-content-section');
+
+        guidanceToggleBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const targetGuidance = btn.dataset.guidance;
+
+                guidanceToggleBtns.forEach(b => b.classList.remove('active'));
+                guidanceContentSections.forEach(s => s.classList.remove('active'));
+
+                btn.classList.add('active');
+                document.getElementById(`${targetGuidance}-guidance`).classList.add('active');
+            });
+        });
+
+        // Comparison Chart Generation
+        let chartGenerated = false;
+
+        function generateComparisonChart() {
+            const chartHeader = document.getElementById('chart-header');
+            const chartBody = document.getElementById('chart-body');
+
+            // Build header row with attribute names
+            const headerHTML = `
+                <th>Curriculum</th>
+                <th>Provider</th>
+                <th>Grade Levels</th>
+                <th># of Lessons</th>
+                <th>Time per Lesson</th>
+                <th>Sequential</th>
+                <th>Hands-on AI</th>
+                <th>Lesson Plans</th>
+                <th>Videos</th>
+                <th>Slides</th>
+                <th>Handouts</th>
+                <th>Description</th>
+                <th>Our Take</th>
+                <th>Access</th>
+            `;
+            chartHeader.innerHTML = headerHTML;
+
+            // Build body rows - one row per curriculum
+            let bodyHTML = '';
+            resources.forEach(r => {
+                let gradeBadges = '';
+                if (r.es) gradeBadges += '<span class="chart-grade-badge es">ES</span>';
+                if (r.ms) gradeBadges += '<span class="chart-grade-badge ms">MS</span>';
+                if (r.hs) gradeBadges += '<span class="chart-grade-badge hs">HS</span>';
+
+                bodyHTML += `<tr>
+                    <td class="chart-curriculum-name"><a href="${r.link}" target="_blank">${r.name}</a></td>
+                    <td>${r.from}</td>
+                    <td><div class="chart-grade-badges">${gradeBadges}</div></td>
+                    <td>${r.lessons || '—'}</td>
+                    <td>${r.time || '—'}</td>
+                    <td>${r.sequential ? '<span class="chart-check">✓</span>' : '<span class="chart-x">—</span>'}</td>
+                    <td>${r.handsOn ? '<span class="chart-check">✓</span>' : '<span class="chart-x">—</span>'}</td>
+                    <td>${r.lessonPlans ? '<span class="chart-check">✓</span>' : '<span class="chart-x">—</span>'}</td>
+                    <td>${r.videos ? '<span class="chart-check">✓</span>' : '<span class="chart-x">—</span>'}</td>
+                    <td>${r.slides ? '<span class="chart-check">✓</span>' : '<span class="chart-x">—</span>'}</td>
+                    <td>${r.handouts ? '<span class="chart-check">✓</span>' : '<span class="chart-x">—</span>'}</td>
+                    <td><div class="chart-cell-desc">${r.description}</div></td>
+                    <td><div class="chart-cell-desc">${r.take}</div></td>
+                    <td><div class="chart-cell-desc">${r.access}</div></td>
+                </tr>`;
+            });
+
+            chartBody.innerHTML = bodyHTML;
+            chartGenerated = true;
         }
 
         // Initialize app
